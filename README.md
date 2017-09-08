@@ -5,7 +5,7 @@ My attempt to reverse engineer the Grammarly API.
 First, you need to find a way to look at the web requests when you write. You can't do this just on the page you are using Grammarly on, you need to go to the extention page and inspect the `forge.html` view.
 
 I'm going to ignore the tracking request to `f-log-extension.grammarly.io` for now, but here it is for later:
-```
+```json
 {
     "message": "init in the field",
     "logger": "usage.session.init",
